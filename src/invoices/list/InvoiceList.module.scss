@@ -1,0 +1,26 @@
+.headerRow {
+    .no {
+        text-align: left;
+    }
+    th {
+        font-weight: bold;
+        text-align: right;
+    }
+}
+
+.listItem {
+    .no {
+        text-align: left;
+        text-decoration: underline;
+        color: rgb(25, 118, 210);
+    }
+    td {
+        text-align: right;
+    }
+}
+
+.loaderContainer {
+    height: 75vh;
+    display: grid;
+    place-content: center;
+}

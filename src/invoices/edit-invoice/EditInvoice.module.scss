@@ -1,0 +1,70 @@
+.paper {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.invoiceNumber {
+  width: 536px !important;
+  border-bottom: 20px solid transparent !important;
+}
+
+.createdDate {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 24px;
+  grid-gap: 24px;
+}
+
+.topButtons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  margin-right: 20px;
+  button {
+    height: 30px;
+  }
+}
+
+.formSection {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.columnBox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.submitBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.amountRow {
+  display: grid;
+  flex-direction: row;
+  column-gap: 30px;
+  place-items: center;
+  grid-template-columns: 49% auto auto auto auto 20px;
+}
+
+.deleteItem:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
