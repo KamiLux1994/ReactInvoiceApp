@@ -28,7 +28,7 @@ function Layout() {
                 <span onClick={() => redirectTo('list-of-invoices')}>Invoices</span>
                 <span onClick={() => redirectTo('invoice-details')}>Add new invoice</span>
                 <span className="language-change-btn" onClick={() => changeLanguage()}>
-                    Change language pl / en
+                    {t('TRANSLATION_BTN')}
                 </span>
             </div>
             <Outlet />

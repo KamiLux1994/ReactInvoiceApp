@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
     en: {
         translation: {
+            "TRANSLATION_BTN": "Change language pl / en",
             "WELCOME_TEXT": "Welcome to React and react-i18next",
             "TEST_INPUT": "Test input label",
             "NO": "No.",
@@ -21,6 +22,7 @@ const resources = {
     },
     pl: {
         translation: {
+            "TRANSLATION_BTN": "Zmień język en / pl",
             "WELCOME_TEXT": "Witamy w React oraz react-i18next",
             "TEST_INPUT": "Testowa labelka inputa",
             "NO": "Nr.",
